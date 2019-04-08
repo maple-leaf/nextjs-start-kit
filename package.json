@@ -19,6 +19,7 @@
     "devDependencies": {
         "@types/styled-components": "^4.1.12",
         "@zeit/next-typescript": "^1.1.1",
-        "babel-plugin-styled-components": "^1.10.0"
+        "babel-plugin-styled-components": "^1.10.0",
+        "svg-react-loader": "^0.4.6"
     }
 }

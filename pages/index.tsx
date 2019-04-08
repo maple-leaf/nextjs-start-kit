@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Icon, { ICONS } from 'components/icon.tsx';
 
 const Title = styled.div`
     font-size: 24px;
@@ -7,7 +8,13 @@ const Title = styled.div`
 `;
 
 function Home() {
-  return <Title>Welcome Next.js!</Title>
+    return (
+        <>
+            <Icon name={ICONS.Close} width="100"/>
+            <Icon name={ICONS.Bluetoothon} width="100"/>
+            <Title>Welcome To Next.js!</Title>
+        </>
+    )
 }
 
 export default Home
